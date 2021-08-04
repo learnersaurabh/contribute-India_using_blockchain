@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(187, 168, 194);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  display: flex;
+  background-color: rgb(147, 123, 170);
+}
+
+.logo{
+  color: aliceblue;
+  margin-left: 30px;
+  font-size: 1.4rem;
+}
+.logo:hover{
+  color: rgb(106, 21, 185);
+  cursor: pointer;
+  transition: 0.3s
+}
+
+.nav{
+  display: flex;
+  width: 300px;
+  margin: 15px;
+  margin-left: auto;
+  padding: 20px;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  
+}
+
+.nav_link{
+  color: rgb(106, 21, 185);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav_link:hover{
+  color: #fff;
+  background-color: rgba(209, 209, 209, 0.349);
+  padding: 0px 10px;
+  border-radius: 30px;
+  
+}
+#button_contribute{
+  margin-top: 20px;
+  background-color: rgb(106, 21, 185);
+  color: #aaa;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border-style: none;
+  text-align: center;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+#button_contribute:hover{
+  color: #fff;
+  background-color: rgba(134, 74, 190, 0.685);
+}
+
+.appeal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 50px 70px 70px 70px;
+  margin: 50px auto;
+  background-color: rgba(233, 223, 223, 0.445);
+  border-radius: 35px;
+}
+
+.appeal_heading{
+  font-size: 2.5rem;
+  color: rgb(106, 21, 185);
+}
+
+.appeal_desc{
+  font-size: 1.3rem;
+  color: rgb(155, 118, 189);
+}
+span{
+  color: rgb(106, 21, 185);
+}
+
+.not_found{
+  display: block;
+  width: 100;
+  height: 100;
+  text-align: center;
+  justify-content: center;
+  color: rgb(106, 21, 185);
+  font-size: 2rem;
+}
+
+#ether_bal{
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  border-style: hidden;
+  background-color: rgb(214, 214, 214);
+}
+
+
+#btn_send{
+  margin-top: 20px;
+  background-color: rgb(106, 21, 185);
+  color: #aaa;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+#btn_send:hover{
+  color: #fff;
+  background-color: rgba(134, 74, 190, 0.685);
+}
+
+.amount_span{
+  font-size: 1.8rem;
+  background-color: rgba(255, 248, 220, 0.877);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
