@@ -21,6 +21,6 @@ Other Software required to run this project -
 3. Remix IDE : https://remix.ethereum.org/
     3.1 Create new file with .sol extension.
     3.2 Find contribute.sol file in src folder.
-    3.3 Copy code from above file and paste in Remix ide .sol file you created.
+    3.3 Copy code from above file and paste in RemixIDE file with '.sol' extension you created.
     3.4 compile and deploy in your local Ganache environment.
 
